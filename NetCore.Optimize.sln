@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.MainAPI", "..\NetCore.MainAPI.csproj", "{D24BE174-2263-40D3-AD99-257C11D6C643}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore.Modules", "..\NetCore.Modules", "{68722F2A-3E99-4D16-8C74-B08FBBEA137D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Demo", "..\NetCore.Modules\NetCore.Demo\NetCore.Demo.csproj", "{749ACFC3-C117-43F8-AA91-983156A0196E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore.Libraries", "..\NetCore.Libraries", "{55F57956-F3B8-4BBA-86FC-E5834C934984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.DemoLibs", "..\NetCore.Libraries\NetCore.DemoLibs\NetCore.DemoLibs.csproj", "{7B6696AD-E420-4CD3-BE4F-238CD575A8D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.DemoJob", "..\NetCore.JobService\NetCore.DemoJob\NetCore.DemoJob.csproj", "{9C6B8C08-9E3B-4C47-8B82-C7223150208E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D24BE174-2263-40D3-AD99-257C11D6C643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24BE174-2263-40D3-AD99-257C11D6C643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24BE174-2263-40D3-AD99-257C11D6C643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24BE174-2263-40D3-AD99-257C11D6C643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749ACFC3-C117-43F8-AA91-983156A0196E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749ACFC3-C117-43F8-AA91-983156A0196E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749ACFC3-C117-43F8-AA91-983156A0196E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749ACFC3-C117-43F8-AA91-983156A0196E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6696AD-E420-4CD3-BE4F-238CD575A8D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6696AD-E420-4CD3-BE4F-238CD575A8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6696AD-E420-4CD3-BE4F-238CD575A8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6696AD-E420-4CD3-BE4F-238CD575A8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6B8C08-9E3B-4C47-8B82-C7223150208E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6B8C08-9E3B-4C47-8B82-C7223150208E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6B8C08-9E3B-4C47-8B82-C7223150208E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6B8C08-9E3B-4C47-8B82-C7223150208E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{749ACFC3-C117-43F8-AA91-983156A0196E} = {68722F2A-3E99-4D16-8C74-B08FBBEA137D}
+		{7B6696AD-E420-4CD3-BE4F-238CD575A8D7} = {55F57956-F3B8-4BBA-86FC-E5834C934984}
+	EndGlobalSection
+EndGlobal
