@@ -2,7 +2,7 @@ NetCore.DesignPattern/NetCore.DesignPattern.FactoriesPattern/obj/
 NetCore.DesignPattern/NetCore.DesignPattern.FactoriesPattern/bin/
 
 NetCore.JobService/NetCore.DemoJob/bin/
-NetCore.JobService/NetCore.DemoJob/bin/
+NetCore.JobService/NetCore.DemoJob/obj/
 
 NetCore.Libraries/NetCore.DemoLibs/obj/
 NetCore.Libraries/NetCore.DemoLibs/bin/
@@ -22,6 +22,10 @@ NetCore.Modules/NetCore.Demo/bin/
 NetCore.MainAPI/obj/
 NetCore.MainAPI/bin/
 
-.vs/NetCore.Optimize/
 NetCore.MainAPI/.vs/NetCore.Optimize/
 NetCore.Data/NetCore.DataTest/NetCore.DataTest.csproj
+
+.vs/
+bin/
+obj/
+
