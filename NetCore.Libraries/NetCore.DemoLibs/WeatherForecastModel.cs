@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace NetCore.DataTest
+namespace NetCore.DemoLibs
 {
     public class WeatherForecastModel
     {
