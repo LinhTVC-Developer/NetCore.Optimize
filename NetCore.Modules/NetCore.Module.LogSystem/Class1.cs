@@ -1,4 +1,4 @@
-﻿namespace NetCore.DataTest
+﻿namespace NetCore.Module.LogSystem
 {
     public class Class1
     {
