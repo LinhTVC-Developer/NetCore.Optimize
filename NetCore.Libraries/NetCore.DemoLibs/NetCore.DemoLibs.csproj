@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\NetCore.Modules\NetCore.Module.FileProcessing\NetCore.Module.FileProcessing.csproj" />
+  </ItemGroup>
+
 </Project>
