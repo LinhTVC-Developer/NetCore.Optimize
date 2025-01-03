@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github.com\\NetCore.Optimize\\NetCore.Optimize\\NetCore.Libraries\\NetCore.DemoLibs\\NetCore.DemoLibs.csproj": {}
+    "E:\\04.CONG_VIEC\\github.com\\NetCore.Optimize\\NetCore.Libraries\\NetCore.DemoLibs\\NetCore.DemoLibs.csproj": {}
   },
   "projects": {
-    "D:\\github.com\\NetCore.Optimize\\NetCore.Optimize\\NetCore.Libraries\\NetCore.DemoLibs\\NetCore.DemoLibs.csproj": {
+    "E:\\04.CONG_VIEC\\github.com\\NetCore.Optimize\\NetCore.Libraries\\NetCore.DemoLibs\\NetCore.DemoLibs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github.com\\NetCore.Optimize\\NetCore.Optimize\\NetCore.Libraries\\NetCore.DemoLibs\\NetCore.DemoLibs.csproj",
+        "projectUniqueName": "E:\\04.CONG_VIEC\\github.com\\NetCore.Optimize\\NetCore.Libraries\\NetCore.DemoLibs\\NetCore.DemoLibs.csproj",
         "projectName": "NetCore.DemoLibs",
-        "projectPath": "D:\\github.com\\NetCore.Optimize\\NetCore.Optimize\\NetCore.Libraries\\NetCore.DemoLibs\\NetCore.DemoLibs.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\github.com\\NetCore.Optimize\\NetCore.Optimize\\NetCore.Libraries\\NetCore.DemoLibs\\obj\\",
+        "projectPath": "E:\\04.CONG_VIEC\\github.com\\NetCore.Optimize\\NetCore.Libraries\\NetCore.DemoLibs\\NetCore.DemoLibs.csproj",
+        "packagesPath": "C:\\Users\\linhtvc\\.nuget\\packages\\",
+        "outputPath": "E:\\04.CONG_VIEC\\github.com\\NetCore.Optimize\\NetCore.Libraries\\NetCore.DemoLibs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\linhtvc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifact.vnpay.vn/nexus/repository/dvnh-nuget/": {},
+          "https://artifact.vnpay.vn/nexus/repository/nuget.org-v2/": {}
         },
         "frameworks": {
           "net8.0": {
@@ -43,8 +46,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

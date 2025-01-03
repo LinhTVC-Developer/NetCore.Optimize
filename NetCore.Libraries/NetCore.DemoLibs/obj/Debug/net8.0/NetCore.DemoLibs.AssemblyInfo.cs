@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetCore.DemoLibs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0817b0b079edf85fbe9faa67392b467c63ac825")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetCore.DemoLibs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetCore.DemoLibs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
