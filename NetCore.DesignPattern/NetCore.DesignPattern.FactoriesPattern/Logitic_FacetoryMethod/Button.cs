@@ -9,6 +9,6 @@ namespace NetCore.DesignPattern.FactoriesPattern.Logitic_FacetoryMethod
     public interface Button
     {
         void render();
-        void onClick(f);
+        void onClick();
     }
 }
